@@ -13,8 +13,8 @@
   </head>
   <body>
     <section id="head">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+      
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey" style="padding: 10px 6%;">
           <div class="container-fluid">
             <a class="navbar-brand" href="./">
               <img src="./img/logo.svg" class="img-fluid" alt="" srcset="">
@@ -24,24 +24,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Learn More
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="./faq.html">FAQ</a></li>
-                    <li><a class="dropdown-item" href="./about.html">About Us</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./property.html">Properties</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Get in Touch</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
+                 <!-- <div class="col-md-12 col-12 mb-4"> -->
+              <!-- <div class="custom-select custom-select-lg select-s"> -->
+                  <input type="text" name="" class="search-s col-sm-12" placeholder="Find goals, tasks or anything">
+              <!-- </div> -->
+           <!-- </div> -->
                 
               </ul> 
               <!-- This is what is not working well -->
@@ -56,7 +43,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="./img/profile.png" class="img-fluid" alt="" srcset="">
+                    Super Admin
               </a>
 
                   <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -73,10 +60,11 @@
       </div>
     </section>
 
+  <div class="container-fluid">
     <section id="">
       <div class="container pt-5">
         <div class="row justify-content-between">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div>
               <h3 class="tx-blue fw-bold py-3">Add Property +</h3>
             </div>
@@ -94,7 +82,7 @@
 
 
 
-          <div class="col-md-8">
+          <div class="col-md-9">
                 <div class="row justify-content-between">
         <div class="col-md-9 mb-4">
           <a href="./admindashboard.html" class="tx-blue mb-1 adlink">Dashboard</a>
@@ -106,7 +94,7 @@
           </div>
         </div>
        </div>
-       <div class="col-md-11 px-0">
+       <div class="col-md-12 px-0">
          <div class="row gx-5">
            <div class="col-md-4 col-12 mb-4">
              <div class="card card-body border-0 bg-light-green">
@@ -136,9 +124,97 @@
             </div>
           </div>
          </div>
+
+
         <div class="mt-5 ">
-          <p class="tx-24 fw-bold tx-display">Manage Users</p>
+          <div class="row">
+            <p class="tx-24 fw-bold tx-display col-sm-9">Manage Users</p>
+            <a href="./.html" class="tx-blue mb-1 adlink col-sm-3 fw-bold tx-13">Add New customer</a>
+          </div>
+
+          <div class="row gx-5">
+           <div class="col-md-3 col-12 mb-4">
+              <div class="custom-select custom-select-lg select-s">
+                  <a href="./user-request2.html" class="adlink tx-blue fw-bold">All Customer</a>
+              </div>
+           </div>
+
+           <div class="col-md-3 col-12 mb-4">
+              <select class="custom-select custom-select-lg select-s">
+                  <option selected disabled>Request Type</option>
+                  <option value="1">-----</option>
+              </select>
+           </div>
+
+
+           <div class="col-md-2 col-12 mb-4">
+              <select class="custom-select custom-select-lg select-s">
+                  <option selected disabled>Select State</option>
+                  <option value="1">-----</option>
+              </select>
+           </div>
+
+           <div class="col-md-2 col-12 mb-4">
+              <select class="custom-select custom-select-lg select-s">
+                  <option selected disabled>Select City</option>
+                  <option value="1">-----</option>
+              </select>
+           </div>
+
+           <div class="col-md-2 col-12 mb-4">
+              <!-- <div class="custom-select custom-select-lg select-s"> -->
+                  <input type="text" name="" class="select-s" placeholder="Search">
+              <!-- </div> -->
+           </div>
+
+         </div>
           
+
+
+          <div class="table-responsive">
+              <table class="table table-borderless">
+                    <thead>
+                        <tr class="tx-14">
+                          <th scope="col">User ID</th>
+                          <th scope="col">Customer Name</th>
+                          <th scope="col">E-mail</th>
+                          <th scope="col">Reg Date</th>
+                          <th scope="col">Del Date</th>
+                          <th scope="col">Request-Actions</th>
+                        </tr>
+                  </thead>
+                  <tbody style="padding: 10px;">
+                    <tr class="bg-grey">
+                      <td><input type="checkbox" name=""> AD123</td>
+                      <td>Lanre Williams</td>
+                      <td>Lanre@gmail.com</td>
+                      <td>23-May-2021</td>
+                      <td>Nil</td>
+                      <td>
+                      <div class="row">
+                          <a href="./user-request2.html" class="adlink tx-blue col-sm-3 fw-bold">Edit</a>
+                          <a href="./user-request2.html" class="adlink tx-blue col-sm-3 fw-bold">Delete</a>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="bg-grey" style="padding: 10px;">
+                      <td><input type="checkbox" name=""> AD123</td>
+                      <td>Lanre Williams</td>
+                      <td>Lanre@gmail.com</td>
+                      <td>23-May-2021</td>
+                      <td>Nil</td>
+                      <td>
+                        <div class="row">
+                          <a href="./user-request2.html" class="adlink tx-blue col-sm-3 fw-bold">Edit</a>
+                          <a href="./user-request2.html" class="adlink tx-blue col-sm-3 fw-bold">Delete</a>
+                        </div>
+                      </td>
+                    </tr>
+
+              </tbody>
+            </table>
+        </div>
         </div>
       </div>
           </div>
