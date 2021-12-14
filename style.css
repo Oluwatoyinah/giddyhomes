@@ -643,3 +643,12 @@ border: none;
  .side-nav ul li {
   margin: 8px 2px;
  }
+
+ .table-space {
+  border-collapse: separate;
+   border-spacing: 0 15px;
+ }
+
+ .mb-b {
+  margin-bottom: 100px;
+ }
