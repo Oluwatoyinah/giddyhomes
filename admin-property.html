@@ -9,14 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Admin Dashboard || Homegiddy</title>
+    <title>Admin Login || Homegiddy</title>
   </head>
   <body>
 
-    <section id="head" class="bg-grey">
-      <div class="container-fluid">
+      <div class="container-fluid bg-grey">
         <nav class="navbar navbar-expand-lg navbar-light content1">
-          <div class="container-fluid">
+        
             <a class="navbar-brand" href="./">
               <img src="./img/logo.svg" class="img-fluid" alt="" srcset="">
             </a>
@@ -24,9 +23,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <form class="d-flex bg-grey mx-auto w-50 border-0">
-                  <input class="form-control me-2 bg-grey" type="search" placeholder="Find goals, tasks and anything..." aria-label="Search">
-              </form>
+              
               <ul class="navbar-nav ms-auto">
                  <li class="nav-item">
                   <button type="button" class="btn position-relative py-0 px-0 mt-2">
@@ -36,90 +33,91 @@
                     </span>
                   </button>
                 </li>
-                <a href="./login.html" class="btn tx-16 nav-link text-start">
+                <a href="./login.html" class="btn tx-15 nav-link">
                   Super Admin
                 </a>
-                
               </ul>
+
+
             </div>
-          </div>
+          
         </nav>
-       
-       
       </div>
-    </section>
 
 
 
-    <section id="" class="mb-b">
-      <div class="container-fluid">
-        <div class="row justify-content-between content1">
+      <div class="container-fluid desk-top">
+        <div class="row content1">
 
-          <div class="col-md-3">
-            <div class="side-nav">
-              <div>
-              <h3 class="tx-blue fw-bold py-3 tx-24">Add Property +</h3>
-            </div>
-            <ul style="list-style-type: none;" >
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="./admindashboard.html">Dashboard</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="./admin-property.html">Properties</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="./user-request.html">Users</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="">Support</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="">Utility</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="">Tools</a></li>
-              <li><a class="adlink tx-blue tx-14 fw-bold" href="">Media and other settings</a></li>
-              <li><a class="adlink tx-14 fw-bold tx-blue" href="">+ Add Page</a></li>
+
+          <div class="col-lg-3 col-sm-12">
+            <ul class=" side-nav">
+              <li class="tx-24 py-3 fw-bold">Add Properties +</li>
+              <li><a class="tx-blue tx-14 fw-bold" href="./admindashboard.html">Dashboard</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="./admin-property.html">Properties</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="./user-request.html">Users</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="">Support</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="">Utility</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="">Tools</a></li>
+              <li><a class="tx-blue tx-14 fw-bold" href="">Media and other settings</a></li>
+              <li><a class="tx-grey tx-14 fw-bold" href="">+ Add Page</a></li>
             </ul>
           </div>
-            </div>
-            
-          <div class="col-md-8">
-            <div class="row justify-content-between">
-        <div class="col-md-9 mb-4">
-          <a href="./admindashboard.html" class="tx-blue adlink">Dashboard</a>
-            <p class="tx-24 tx-display fw-bold mt-3">Add Properties for sale</p>
-        </div>
-        <div class="col-md-2">
-          <div class="d-flex justify-content-md-end">
-            <p class="tx-blue">8:48AM</p>
-          </div>
-        </div>
-       </div>
 
-       <div class="col-md-12 px-0">
-         <div class="row col-md-12 justify-content-between">
-           <div class="col-md-6 col-12 mb-4">
-             <div class="card card-body bg-white"  style="border: 2px dotted rgba(0, 0, 61, 1);">
-              <div class="d-flex py-3">
-                <div>
-                  <img src="./img/dash-icon.svg" class="img-fluid" alt="" srcset="">
-                  <a href="./admin-property-upload1.html" class="tx-14 tx-blue pt-2 mb-1 adlink">Start Upload</a>
-                  <!-- <p class="tx-24 fw-bold mb-1 ps-2">2</p> -->
+          <div class="col-lg-9 col-sm-12">
+            <div class="">
+              <div class="row justify-content-between main2">
+                <div class="col-md-9 mb-4">
+                  <div class="mb-1">
+                          <img src="./img/arrow.png" style="width: 12px; margin-right: 5px;" alt="" srcset="">
+                          <a href="./admindashboard.html" class="tx-14 tx-blue pt-2 mb-1 adlink fw-bold">Dashboard</a>
+                    </div>
+                    <p class="tx-24 tx-display fw-bold">Add Property for Sale</p>
                 </div>
-              </div>
-             </div>
-           </div>
-           
-          <div class="col-md-6 col-12 mb-4">
-            <div class="card card-body border-0 bg-grey">
-             <div class="d-flex">
-                    <div class="me-3">
-                      <img src="./img/dash-star.png" class="img-fluid" alt="" srcset="">
+                <div class="col-md-2">
+                  <div class="d-flex justify-content-md-end">
+                    <div class="">
+                          <img src="./img/weather.png" style="width: 15px;" alt="" srcset="">
+                          <a href="" class="tx-14 tx-blue pt-2 mb-1 adlink fw-bold">8:43AM</a>
                     </div>
-                    <div>
-                      <p class="tx-14 tx-blue mb-1 fw-bold">How to upload</p>
-                      <p class="tx-12 mb-1 tx-blue">- Input detail</p>
-                      <p class="tx-12 mb-1 tx-blue">- Set pricing</p>
-                      <p class="tx-12 mb-1 tx-blue">- Push to market</p>
-                    </div>
-                    
                   </div>
+                </div>
+
+
+                <div class="col-md-12 px-0">
+                <div class="row col-md-10 justify-content-between">
+                  <div class="col-md-6 col-12 mb-4">
+                    <div class="card card-body bg-white rounded-10"  style="border: 2px dotted rgba(0, 0, 61, 1);">
+                      <div class="d-flex py-3 justify-content-center">
+                        <div style="display: flex; flex-direction: column;">
+                          <img src="./img/upload-cloud.png" class="mx-auto" style="width: 20px; text-align: center;" alt="" srcset="">
+                          <a href="./admin-property-upload1.html" class="tx-14 tx-blue pt-2 mb-1 adlink">Start Upload</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+           
+                 <div class="col-md-6 col-12 mb-4">
+                   <div class="card card-body border-0 rounded-10 bg-grey">
+                   <div class="d-flex">
+                      <div class="me-3">
+                        <img src="./img/dash-star.png" class="img-fluid" alt="" srcset="">
+                      </div>
+                      <div class="row justify-content-between">
+                        <p class="tx-14 col-8 tx-blue mb-1 fw-bold">How to upload</p>
+                        <p class="tx-14 col-4 tx-blue mb-1 fw-bold">Remove</p>
+                        <p class="tx-12 mb-1 tx-blue">- Input detail</p>
+                        <p class="tx-12 mb-1 tx-blue">- Set pricing</p>
+                        <p class="tx-12 mb-1 tx-blue">- Push to market</p>
+                      </div>
+                   </div>
+                 </div>
+              </div>
             </div>
-          </div>
-         </div>
+
         <div class="mt-5 ">
           <p class="tx-24 fw-bold tx-display">Listed Properties</p>
-          <div class="about-content py-5">
+          <div class="about-content py-3">
 
           <div class="row gx-3 mt-0">
             <div class="col-md-6 col-lg-4 col-12 mb-3 mb-md-3 md-lg-0">
@@ -276,23 +274,32 @@
                 </div>
               </div>
             </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-    
-             
 
-            <!-- END OF SECOND PART -->
-          </div>
 
+
+
+            
+              </div>
+
+              
+
+
+              <!-- end of second part -->
             </div>
           </div>
-      </section>
+           
+
+
+        </div>
+      </div>
+ 
+
+
+   
 
 
 
+    
 
    
     
@@ -302,22 +309,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
