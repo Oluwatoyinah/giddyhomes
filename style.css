@@ -643,3 +643,7 @@ admin dashboard
 .bg-soft-yellow {
   background-color: #FFF4DB;
 }
+
+.bd-grey {
+  border: 1px solid #eee;
+}
