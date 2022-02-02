@@ -189,8 +189,10 @@
                       <span class="selected-feature"> 24 hours electricity<button>x</button></span>
                        -->
                        <div class="row">
-                         <div class="col-md-12" id="pop">
-                           
+                         <div class="col-md-12">
+                           <div class="row" id="pop">
+                             
+                           </div>
                          </div>
                        </div>
                        
@@ -289,7 +291,7 @@ function toyi() {
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add("selectedfeature");
+           tag.classList.add("selectedfeature", "col-md-4");
          } else if(l === "Heater") {
 
            // alert("Welcome MoFOS");
@@ -298,7 +300,7 @@ function toyi() {
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add('selectedfeature');
+           tag.classList.add('selectedfeature', "col-md-4");
          } else if(l === "Wi-Fi") {
 
            // alert("Welcome MoFOS");
@@ -307,7 +309,7 @@ function toyi() {
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add('selectedfeature');
+           tag.classList.add('selectedfeature', "col-md-4");
          } else if(l === "24/7 Electricity") {
 
            // alert("Welcome MoFOS");
@@ -316,7 +318,7 @@ function toyi() {
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add("selectedfeature");
+           tag.classList.add("selectedfeature", "col-md-6");
          } else if(l === "Prepaid") {
 
            // alert("Welcome MoFOS");
@@ -325,7 +327,7 @@ function toyi() {
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add('selectedfeature');
+           tag.classList.add('selectedfeature', "col-md-4");
          }
 
          function clos() {
