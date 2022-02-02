@@ -679,7 +679,7 @@ User
 
 .selectedfeature {
   border: 2px solid rgba(0,0,61,1);
-  margin: 8px 4px;
+  margin: 5px 4px;
   border-radius: 5px;
   padding: 5px 10px;
 }
