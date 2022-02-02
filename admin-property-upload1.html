@@ -176,6 +176,7 @@
                       <label for="inputPassword4" class="form-label tx-blue fw-bold">Features</label>
                       <select id="selectfeature" class="form-select bd-blue-thin" onchange="toyi()">
                         <option selected value="Heater">Heater</option>
+                        <option value="Wi-Fi">Wi-Fi</option>
                         <option value="Prepaid">Prepaid</option>
                         <option value="24/7 Electricity">24 hours Electricity</option>
                         <option value="Pool">Pool</option>
@@ -290,6 +291,15 @@ function toyi() {
            pop.appendChild(tag);
            tag.classList.add("selectedfeature");
          } else if(l === "Heater") {
+
+           // alert("Welcome MoFOS");
+           var tag = document.createElement("p");
+           var text = document.createTextNode(l);
+           tag.appendChild(text);
+           tag.appendChild(btn);
+           pop.appendChild(tag);
+           tag.classList.add('selectedfeature');
+         } else if(l === "Wi-Fi") {
 
            // alert("Welcome MoFOS");
            var tag = document.createElement("p");
