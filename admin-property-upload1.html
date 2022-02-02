@@ -182,12 +182,6 @@
                         <option value="Pool">Pool</option>
                         
                       </select>
-
-                      <!-- <span class="selected-feature">Heater<button>x</button></span>
-                      <span class="selected-feature">Prepaid<button>x</button></span>
-                      <span class="selected-feature">Pool<button>x</button></span>
-                      <span class="selected-feature"> 24 hours electricity<button>x</button></span>
-                       -->
                        <div class="row">
                          <div class="col-md-12">
                            <div class="row" id="pop">
@@ -285,16 +279,14 @@ function toyi() {
 
          if(l === "Pool") {
 
-           // alert("Welcome MoFOS");
            var tag = document.createElement("p");
            var text = document.createTextNode(l);
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add("selectedfeature", "col-md-4");
+           tag.classList.add("selectedfeature", "col-md-3");
          } else if(l === "Heater") {
 
-           // alert("Welcome MoFOS");
            var tag = document.createElement("p");
            var text = document.createTextNode(l);
            tag.appendChild(text);
@@ -303,16 +295,14 @@ function toyi() {
            tag.classList.add('selectedfeature', "col-md-4");
          } else if(l === "Wi-Fi") {
 
-           // alert("Welcome MoFOS");
            var tag = document.createElement("p");
            var text = document.createTextNode(l);
            tag.appendChild(text);
            tag.appendChild(btn);
            pop.appendChild(tag);
-           tag.classList.add('selectedfeature', "col-md-4");
+           tag.classList.add('selectedfeature', "col-md-3");
          } else if(l === "24/7 Electricity") {
 
-           // alert("Welcome MoFOS");
            var tag = document.createElement("p");
            var text = document.createTextNode(l);
            tag.appendChild(text);
@@ -321,7 +311,6 @@ function toyi() {
            tag.classList.add("selectedfeature", "col-md-6");
          } else if(l === "Prepaid") {
 
-           // alert("Welcome MoFOS");
            var tag = document.createElement("p");
            var text = document.createTextNode(l);
            tag.appendChild(text);
