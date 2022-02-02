@@ -172,15 +172,27 @@
                       </select>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 pb-3 mb-3">
                       <label for="inputPassword4" class="form-label tx-blue fw-bold">Features</label>
-                      <select id="inputState" class="form-select bd-blue-thin">
-                        <option selected>Heater</option>
-                        <option value="1">Prepaid</option>
-                        <option value="2">2</option>
-                        <option value="2">3</option>
+                      <select id="selectfeature" class="form-select bd-blue-thin" onchange="toyi()">
+                        <option selected value="Heater">Heater</option>
+                        <option value="Prepaid">Prepaid</option>
+                        <option value="24/7 Electricity">24 hours Electricity</option>
+                        <option value="Pool">Pool</option>
                         
-                      </select>
+                      </select><br>
+
+                      <!-- <span class="selected-feature">Heater<button>x</button></span>
+                      <span class="selected-feature">Prepaid<button>x</button></span>
+                      <span class="selected-feature">Pool<button>x</button></span>
+                      <span class="selected-feature"> 24 hours electricity<button>x</button></span>
+                       -->
+                       <div class="row">
+                         <div class="col-md-12" id="pop">
+                           
+                         </div>
+                       </div>
+                       
                     </div>
 
                     <div class="col-md-12">
@@ -236,6 +248,80 @@
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<script>
+  // $(function() {
+  //   $('#select-feature').on('change', function(){
+  //     alert('welcome');
+  //   });
+  // });
 
+
+
+
+//  function toyi() {
+   
+//  var a = document.getElementById('select-feature');
+//  var b = a.options[a.selectedIndex].value; 
+
+//    if (b === "1") {
+//    alert('welcome');
+//  }
+
+// }
+
+function toyi() {
+  var k = document.getElementById('selectfeature');
+  var l = k.options[k.selectedIndex].value;
+  var pop = document.getElementById('pop');
+  var btn = document.createElement('button')
+           var btntext = document.createTextNode("x");
+          btn.appendChild(btntext);
+          btn.classList.add('btnselect');
+          btn.addEventListener('click', clos);
+
+
+         if(l === "Pool") {
+
+           // alert("Welcome MoFOS");
+           var tag = document.createElement("span");
+           var text = document.createTextNode(l);
+           tag.appendChild(text);
+           tag.appendChild(btn);
+           pop.appendChild(tag);
+           tag.classList.add("selectedfeature");
+         } else if(l === "Heater") {
+
+           // alert("Welcome MoFOS");
+           var tag = document.createElement("span");
+           var text = document.createTextNode(l);
+           tag.appendChild(text);
+           tag.appendChild(btn);
+           pop.appendChild(tag);
+           tag.classList.add('selectedfeature');
+         } else if(l === "24/7 Electricity") {
+
+           // alert("Welcome MoFOS");
+           var tag = document.createElement("span");
+           var text = document.createTextNode(l);
+           tag.appendChild(text);
+           tag.appendChild(btn);
+           pop.appendChild(tag);
+           tag.classList.add("selectedfeature");
+         } else if(l === "Prepaid") {
+
+           // alert("Welcome MoFOS");
+           var tag = document.createElement("span");
+           var text = document.createTextNode(l);
+           tag.appendChild(text);
+           tag.appendChild(btn);
+           pop.appendChild(tag);
+           tag.classList.add('selectedfeature');
+         }
+
+         function clos() {
+           this.parentElement.style.display = "none"; 
+         }
+}
+</script>
 </body>
 </html>

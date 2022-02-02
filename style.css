@@ -38,6 +38,9 @@ body{
 .tx-20{
   font-size: 1.25rem;
 }
+.tx-22{
+  font-size: 1.375rem;
+}
 .tx-30{
   font-size: 1.875rem;
 }
@@ -672,3 +675,17 @@ User
  .bg-light-blue {
   background-color: #25ADFA;
  }
+
+
+.selectedfeature {
+  border: 2px solid rgba(0,0,61,1);
+  margin: 8px 4px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.btnselect {
+  border: none;
+  background-color: transparent;
+
+}
