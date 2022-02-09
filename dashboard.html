@@ -191,7 +191,11 @@
       
 
       <div class="table-responsive mt-5" id="request-table" style="display: none;">
-        <p class="tx-24 fw-bold tx-display">Total Requests</p>
+        <div class="d-flex">
+          <p class="tx-24 fw-bold tx-display">Total Requests</p>
+          <a class="ms-auto tx-blue" id="dashboard-back" href="">Back</a>
+        </div>
+        
         <table class="table table-borderless table-space tx-blue" style="overflow: hidden;">
               <thead>
                   <tr class="tx-14">
@@ -248,6 +252,10 @@
       var complete = document.getElementById('completed_request');
       complete.addEventListener('click', popup);
 
+      var back = document.getElementById('dashboard-back');
+      back.addEventListener('click', pop);
+
+      
 
       //Add pointer event
       total.style.cursor = "pointer";
@@ -257,6 +265,11 @@
       function popup(){
         start.style.display = "none";
         table.style.display = "block";
+      }
+
+      function pop(){
+        start.style.display = "block";
+        table.style.display = "none";
       }
 
     </script>
