@@ -53,6 +53,12 @@ body{
 .tx-16{
   font-size: 1rem;
 }
+.tx-14{
+  font-size: 0.875rem;
+}
+.tx-12{
+  font-size: 0.75rem;
+}
 .tx-9{
   font-size: 0.52rem;
 }
@@ -118,6 +124,11 @@ body{
 }
 .btn-prim{
   background-color: rgba(251, 175, 0, 1);
+  color: #fff;
+}
+
+.btn-blue{
+  background-color: rgba(0, 0, 61, 1);
   color: #fff;
 }
 .show_bg {
@@ -224,13 +235,10 @@ animation-duration: 0ms;
 .mar-top{
   margin-top: 120px;
 }
-.btn-blue{
-  background-color: rgba(251, 175, 0, 1);
-  color: #fff;
-}
+
 .btn-blue:hover{
-  background-color: rgb(0, 0, 39);
-color: #FFFAEA;
+  background-color: rgba(251, 175, 0, 1);
+  color: #fff;;
 }
 .bg-wh{
   background-image: url(./img/B&G.png);
@@ -376,6 +384,7 @@ border-color: rgba(251, 175, 0, 1);
 .btn{
   border-radius: 0!important;
   padding: 0.7rem 2rem;
+  font-size: 13px;
 }
 .img-check{
   max-width: 24px!important;
@@ -423,7 +432,7 @@ border-color: rgba(251, 175, 0, 1);
     margin-top: 40px;
   }
   .neg-img{
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .top-about{
     padding-top: 5rem;
