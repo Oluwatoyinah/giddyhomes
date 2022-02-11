@@ -121,6 +121,12 @@ body{
   /* color: #fff; */
   text-decoration: none;
 }
+
+.why {
+  padding: 50px 0 100px;
+   min-height: 60vh; 
+   clip-path: ellipse(80% 100% at 50% 0%);
+}
 .bg-grey{
   background: rgba(246, 247, 251, 1);
 }
@@ -421,6 +427,10 @@ border-color: rgba(251, 175, 0, 1);
 @media (max-width: 575.98px) { 
   .header-conten, .why{
     overflow-x: hidden;
+  }
+
+  .why {
+    clip-path: none;
   }
   
   .tx-center{
