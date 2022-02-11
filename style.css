@@ -127,6 +127,12 @@ body{
    min-height: 60vh; 
    clip-path: ellipse(80% 100% at 50% 0%);
 }
+
+.blue-box {
+  position: absolute; 
+  top: 49%; 
+  left: 0;
+}
 .bg-grey{
   background: rgba(246, 247, 251, 1);
 }
@@ -432,7 +438,8 @@ border-color: rgba(251, 175, 0, 1);
   .why {
     clip-path: none;
   }
-  
+ 
+
   .tx-center{
     text-align: center;
   }
