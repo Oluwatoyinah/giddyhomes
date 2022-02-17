@@ -732,3 +732,41 @@ User
 #pop {
   display: inline-flex;
 }*/
+
+.content-box .one {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  
+}
+
+.content-box .two {
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+}
+
+.content-box .three {
+  position: absolute; 
+  top: 0; 
+  right: 0;
+}
+
+.content-box .four {
+  position: absolute; 
+  bottom: 0; 
+  right: 0;
+}
+
+.content-box .five {
+  position: absolute; 
+  top: 50%; 
+  left: 40%;
+}
+
+.cover {
+  padding: 3px 5px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 8px #e7e3e3;
+  border-radius: 8px ;
+}
