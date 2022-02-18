@@ -145,7 +145,10 @@ body{
   color: #fff;
 }
 .btn-grey{
-  border: 1px solid rgb(51, 51, 50);
+  border: 1px solid #eaeaea;
+  background-color: white;
+  padding: 3px 5px;
+  font-size: 13px;
 }
 
 .btn-blue{
@@ -763,8 +766,8 @@ User
 
 .content-box .five {
   position: absolute; 
-  top: 50%; 
-  left: 40%;
+  top: 40%; 
+  left: 35%;
 }
 
 .cover {
