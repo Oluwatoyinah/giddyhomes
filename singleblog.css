@@ -13,13 +13,24 @@
 }
 .room {
 	width: 80%;
+	
 }
 
+.roombg {
+	position: absolute;
+	bottom:-20%;
+	left: -20%;
+	z-index: -2;
+}
 
-
+.main-room {
+	position: relative;
+}
 .woman{
 	width: 80%;
+	position: relative;
 }
+
 
 
 .section3 {
@@ -32,3 +43,9 @@
 	padding: 0px 8%;
 }
 
+
+@media (max-width:600px) {
+	.room, .woman {
+		width:100%;
+	}
+}
