@@ -778,3 +778,22 @@ User
   font-size: 12px;
 }
 
+#prop-banner2{
+  background-image: url(./img/Subtract.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-origin: content-box;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+@media(max-width:600px) {
+  
+#prop-banner2{
+  background-image:none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+}
