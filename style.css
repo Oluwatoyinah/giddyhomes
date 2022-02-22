@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.cdnfonts.com/css/noe-display');
+@import url('http://fonts.cdnfonts.com/css/basis-grotesque-pro');
 
                 
       
 body{
   font-family: 'Noe Display', sans-serif;
   font-family: 'Muli', sans-serif;
+  /* font-family: 'Basis Grotesque Pro', sans-serif;
+font-family: 'Basis Grotesque Pro Light', sans-serif; */
   overflow-x:hidden;
   
 
