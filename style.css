@@ -138,7 +138,8 @@ font-family: 'Basis Grotesque Pro Light', sans-serif;
   text-decoration: none;
 }
 
-.why {
+
+.why2 {
   padding: 50px 0 100px;
    min-height: 60vh; 
    clip-path: ellipse(80% 100% at 50% 0%);
@@ -456,11 +457,11 @@ border-color: rgba(251, 175, 0, 1);
   padding: 50px;
 }
 @media (max-width: 575.98px) { 
-  .header-conten, .why{
+  .header-conten, .why2{
     overflow-x: hidden;
   }
 
-  .why {
+  .why2 {
     clip-path: none;
   }
  
