@@ -148,7 +148,8 @@ font-family: 'Basis Grotesque Pro Light', sans-serif;
   position: absolute; 
   top: 49%; 
   left: 0;
-  /* height: 51%; */
+  height: 51%;
+  width: 100%;
 }
 .bg-grey{
   background: rgba(246, 247, 251, 1);
