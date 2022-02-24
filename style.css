@@ -825,3 +825,10 @@ User
   padding-left: 0px;
 }
 }
+
+
+@media(min-width: 768px) {
+  #ready .container-fluid {
+    padding-left:12%;
+  }
+}
