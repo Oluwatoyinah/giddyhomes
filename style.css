@@ -27,6 +27,10 @@ body{
 font-family: 'Basis Grotesque Pro Light', sans-serif;
 }
 
+nav {
+  font-family: 'Basis Grotesque Pro Regular', sans-serif;
+}
+
 #header{
   background: #FFFAEA;
 }
