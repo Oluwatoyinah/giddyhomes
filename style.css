@@ -567,9 +567,9 @@ border-color: rgba(251, 175, 0, 1);
   font-size: 0.75rem!important;
 }
 }
-.nav-pad{
+/* .nav-pad{
   padding-bottom: 70px;
-}
+} */
 .navbar-light .navbar-toggler.main{
   color: #fff;
   border-color: #fff;
@@ -601,9 +601,9 @@ border-color: rgba(251, 175, 0, 1);
   background: rgba(0, 0, 61, 0.8);
   color: #fff;
 }
-.ht-100v{
+/* .ht-100v{
   min-height: 100vh;
-}
+} */
 .tx-12{
   font-size: 0.75rem;
 }
