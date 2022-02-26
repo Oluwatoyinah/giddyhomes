@@ -151,10 +151,10 @@ nav {
 
 .blue-box {
   position: absolute; 
-  top: 49%; 
+  top: 40%; 
   left: 0;
-  height: 51%;
   width: 100%;
+  bottom: 0;
 }
 .bg-grey{
   background: rgba(246, 247, 251, 1);
