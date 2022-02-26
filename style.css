@@ -420,8 +420,12 @@ color: rgba(251, 175, 0, 1)!important;
   padding-top: 13rem;
 }
 .page-item.active .page-link{
-background-color: rgba(251, 175, 0, 1);
-border-color: rgba(251, 175, 0, 1);
+/* background-color: rgba(251, 175, 0, 1);
+border-color: rgba(251, 175, 0, 1); */
+color: rgb(251, 175, 0 );
+background-color: #fff;
+border-color: rgb(192, 190, 186);
+opacity: 0.5;
 }
 /* .form-bd option {
   margin: 40px;
