@@ -527,7 +527,7 @@ opacity: 0.5;
     padding-bottom: 30px;
   }
   .tx-55{
-    font-size: 38px;
+    font-size: 30px;
   }
   .tx-30{
     font-size: 24px;
@@ -821,12 +821,25 @@ User
   cursor: pointer;
  }
 
+ .carousel-item img {
+  width: 80%;
+}
 @media(max-width:600px) {
   
 #prop-banner2{
   background-image:none;
   padding-right: 0px;
   padding-left: 0px;
+}
+
+#prop-banner{
+  background-image:none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.carousel-item img {
+  height: 37vh;
+  width: 100%;
 }
 }
 
