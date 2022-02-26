@@ -111,8 +111,7 @@ nav {
 }
 .img-container{
   background: url(./img/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+ -
   height: 400px;
 }
 .bg-blue{
