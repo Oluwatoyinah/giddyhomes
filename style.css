@@ -192,18 +192,9 @@ nav {
   background-color: #FCD581 ;
 }
 .item {
-  /* position:relative; */
-  /* padding-top:20px; */
-  /* display:block; */
 }
 .notify-badge{
-  /* position: absolute; */
-  /* right:15px; */
-  /* top:0px; */
-  /* padding:5px 10px; */
-  /* font-size:10px; */
   font-size: 14px;
-  /* font-weight: bold; */
 }
 #started{
   background-color: rgba(255, 250, 234, 0.5);
@@ -836,10 +827,7 @@ User
   padding-right: 0px;
   padding-left: 0px;
 }
-.carousel-item img {
-  height: 37vh;
-  width: 100%;
-}
+
 }
 
 
