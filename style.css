@@ -455,7 +455,9 @@ opacity: 0.5;
   opacity: 0.5;
   padding: 50px;
 }
+
 @media (max-width: 575.98px) { 
+ 
   .header-conten, .why2{
     overflow-x: hidden;
   }
