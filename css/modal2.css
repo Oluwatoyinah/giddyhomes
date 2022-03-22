@@ -12,7 +12,7 @@
   max-height: 90vh;
   padding:40px 60px;
   background:#f5f5f5;
-  border-radius:10px;
+  /* border-radius:10px; */
   box-sizing:border-box;
   z-index:2;
   text-align:center;
@@ -41,23 +41,22 @@
 
 .icons ul li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 25px;
+  font-size: 20px;
 }
 
 .icons ul li a{
     color: rgba(251, 175, 0, 1);;
+}
+
+.icons ul li a:hover{
+  color: rgba(0, 0, 61, 1);
 }
 .popup .title {
   margin:5px 0px;
   font-weight:600;
   text-align: center;
 }
-.popup .description {
-  color:#222;
-  font-size:15px;
-  padding:5px;
-}
-
 
 
 .description p {
@@ -65,19 +64,8 @@
   width: 100%;
   text-align: center;
 }
-.popup .dismiss-btn {
-  /* margin-top:15px;
-  clear: left; */
-}
+
 .popup .dismiss-btn button {
-  /* padding:7px 15px;
-  background: red;
-  color:#f5f5f5;
-  border:2px solid red;
-  font-size:16px;
-  font-weight:600;
-  outline:none;
-  border-radius:10px; */
   cursor:pointer;
   transition: all 300ms ease-in-out;
 }
@@ -104,13 +92,6 @@
   transition: all 300ms ease-in-out 400ms;
 }
 
-/* 
-.btc {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-} */
-
 
 
 
@@ -125,8 +106,8 @@
   max-width: 100vw;
   min-height:60vh;
   max-height: 85vh;
-  padding:10px 15px;
-  border-radius:30px;
+  padding:20px;
+  /* border-radius:30px; */
  
   }
 
@@ -135,28 +116,12 @@
   font-size:15px;
   font-weight:600;
 }
-/* .popup2 .description2 {
-  color:#222;
-  padding:3px;
-} */
-
 .popup .description p{
-  color:#222;
-  /* font-size:13px; */
-  padding:10px;
   width: 100%;
   text-align: center;
 }
 
 .popup .dismiss-btn button {
-  /* padding:3px 8px;
-  background:red;
-  color:white;
-  border:2px solid red;
-  font-size:12px;
-  font-weight:400;
-  outline:none;
-  border-radius:10px; */
   cursor:pointer;
   transition: all 300ms ease-in-out;
   margin-bottom: 10px;
