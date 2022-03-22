@@ -237,28 +237,30 @@
     </footer> 
 
 
-    
+
+    <!-- MODAL -->
+<div class="modal">   
   <div class="popup center">
-   <div class="icon">
+    <div class="icon">
       <img src="img/logo.svg" class="btc mx-auto">
     </div>
-   <div class="title" id="btn">
-     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 194 194" fill="none"><circle cx="97.1291" cy="97.1291" r="93.1291" stroke="#FBAF00" stroke-width="7.39412"></circle><path d="M143.855 113.33C139.528 136.714 117.897 153.243 93.8181 150.8C78.0623 149.202 64.9649 139.856 57.9212 126.925" stroke="#FBAF00" stroke-width="12"></path><path d="M102.498 79.1377C106.362 69.5409 117.013 64.361 127.069 67.4822C133.649 69.5246 138.426 74.6406 140.313 80.7626" stroke="#FBAF00" stroke-width="7.39412"></path><ellipse cx="68.1904" cy="78.6281" rx="15.4326" ry="21.3609" transform="rotate(-13.7577 68.1904 78.6281)" fill="#FBAF00"></ellipse></svg>
-   </div>
+    <div class="title" id="btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 194 194" fill="none"><circle cx="97.1291" cy="97.1291" r="93.1291" stroke="#FBAF00" stroke-width="7.39412"></circle><path d="M143.855 113.33C139.528 136.714 117.897 153.243 93.8181 150.8C78.0623 149.202 64.9649 139.856 57.9212 126.925" stroke="#FBAF00" stroke-width="12"></path><path d="M102.498 79.1377C106.362 69.5409 117.013 64.361 127.069 67.4822C133.649 69.5246 138.426 74.6406 140.313 80.7626" stroke="#FBAF00" stroke-width="7.39412"></path><ellipse cx="68.1904" cy="78.6281" rx="15.4326" ry="21.3609" transform="rotate(-13.7577 68.1904 78.6281)" fill="#FBAF00"></ellipse></svg>
+    </div>
  
-   <div class="description tx-blue pt-3">
+    <div class="description tx-blue pt-3">
       <h3 class="tx-display">Thank you for contacting us.</h3>
       <p class="tx-16">Someone from our team will reach out to you</p>
-   </div>
+    </div>
   
-       <div class="icons">
-           <ul>
+    <div class="icons">
+        <ul>
              <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
              <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-           </ul>
-       </div>
+        </ul>
+    </div>
     
     <div class="dismiss-btn">
       <button id="dismiss-popup-btn" class="btn btn-blue fw-bold">
@@ -266,12 +268,14 @@
       </button>
     </div>
  </div>
-
+</div>
+ 
 
 
 <!-- JAVASCRIPT FOR THE SECOND MODAL -->
 <script type="text/javascript">
   document.getElementById("open-popup-btn").addEventListener("click",function(e){
+    document.getElementsByClassName("modal")[0].classList.add("active");
     document.getElementsByClassName("popup")[0].classList.add("active");
     e.preventDefault();
  
@@ -279,6 +283,7 @@
 
 document.getElementById("dismiss-popup-btn").addEventListener("click",function(){
   document.getElementsByClassName("popup")[0].classList.remove("active");
+  document.getElementsByClassName("modal")[0].classList.remove("active");
   document.getElementsByClassName("confirm")[0].classList.remove("d-none");
 });
 
