@@ -105,7 +105,7 @@
 
   .popup .title {
   margin:5px 0px;
-  font-size:15px;
+  font-size:1.75em;
   font-weight:600;
 }
 .popup .description p{
@@ -138,7 +138,7 @@
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
 }
 
 .modal.active {
