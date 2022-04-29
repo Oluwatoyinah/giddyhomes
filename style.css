@@ -845,3 +845,14 @@ User
 .upload {
   width: 60px;
 }
+
+
+
+.sold-out-box {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: grid;
+  place-content: center;
+}
